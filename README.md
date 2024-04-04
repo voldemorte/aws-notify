@@ -31,7 +31,6 @@
 | <a name="input_create_sns_topic"></a> [create\_sns\_topic](#input\_create\_sns\_topic) | Whether to create new SNS topic | `bool` | `true` | no |
 | <a name="input_display_name"></a> [display\_name](#input\_display\_name) | The display name for the SNS topic | `string` | `""` | no |
 | <a name="input_kms_master_key_id"></a> [kms\_master\_key\_id](#input\_kms\_master\_key\_id) | The ID of an AWS-managed customer master key (CMK) for Amazon SNS or a custom CMK | `string` | `""` | no |
-| <a name="input_pagerduty_endpoint"></a> [pagerduty\_endpoint](#input\_pagerduty\_endpoint) | The PagerDuty HTTPS endpoint where SNS notifications will be sent to | `string` | n/a | yes |
 | <a name="input_pd_escalation_policy_id"></a> [pd\_escalation\_policy\_id](#input\_pd\_escalation\_policy\_id) | (Required) The escalation policy used by this service. | `string` | n/a | yes |
 | <a name="input_sns_topic_name"></a> [sns\_topic\_name](#input\_sns\_topic\_name) | The name of SNS topic to create or reference | `string` | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to the sns\_topic resource | `map(string)` | `{}` | no |
