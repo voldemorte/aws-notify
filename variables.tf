@@ -10,11 +10,6 @@ variable "create_sns_topic" {
   default     = true
 }
 
-variable "pagerduty_endpoint" {
-  description = "The PagerDuty HTTPS endpoint where SNS notifications will be sent to"
-  type        = string
-}
-
 variable "sns_topic_name" {
   description = "The name of SNS topic to create or reference"
   type        = string
